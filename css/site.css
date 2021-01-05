@@ -2,7 +2,7 @@ body {
   background-color: #e7e9ed;
 }
 
-.invoice {
+.invoice-container {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -14,9 +14,11 @@ body {
 .bold-text {
   font-weight: bold;
 }
-/* table {
-  border: 1px solid #dfdfdf; 
-}*/
+/* .table-invoice :first-child {
+  border: 1px solid #dfdfdf;
+  border-radius: 8px;
+} */
+
 .table-row-light {
   background-color: #f7f7f7;
 }
