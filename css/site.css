@@ -26,3 +26,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}
