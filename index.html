@@ -26,13 +26,13 @@
 
       <div class="row">
         <div class="col-6">
-          <p><strong>Date:</strong> 05/12/2019</p>
+          <p><span class="bold-text">Date:</span> 05/12/2019</p>
         </div>
         <div class="col-6">
-          <p><strong>Invoice No:</strong> 16835</p>
+          <p><span class="bold-text">Invoice No:</span> 16835</p>
         </div>
       </div>
-      <hr />
+      <hr class="hr" />
       <div class="row h5">
         <div class="col-6">Invoiced To:</div>
         <div class="col-6">Pay To:</div>
@@ -57,7 +57,7 @@
       <br />
 
       <table class="table">
-        <thead class="thead-light">
+        <thead class="table-row-light">
           <tr>
             <th class="col-6">Service</th>
             <th class="col">Description</th>
@@ -88,25 +88,37 @@
             <td>1</td>
             <td>$450.00</td>
           </tr>
-          <tr>
-            <td></td>
+          <tr class="table-row-light">
+            <td colspan="4" class="text-right">
+              <span class="bold-text">Sub Total:</span>
+            </td>
+            <td colspan="1" class="text-right">$2150.00</td>
           </tr>
-          <tr>
-            <td>SEO</td>
-            <td>Optimize the site for search engines (SEO)</td>
-            <td>$450.00</td>
-            <td>1</td>
-            <td>$450.00</td>
+          <tr class="table-row-light">
+            <td colspan="4" class="text-right">
+              <span class="bold-text">Tax:</span>
+            </td>
+            <td colspan="1" class="text-right">$2150.00</td>
           </tr>
-          <tr>
-            <td>SEO</td>
-            <td>Optimize the site for search engines (SEO)</td>
-            <td>$450.00</td>
-            <td>1</td>
-            <td>$450.00</td>
+          <tr class="table-row-light">
+            <td colspan="4" class="text-right">
+              <span class="bold-text">Sub Total:</span>
+            </td>
+            <td colspan="1" class="text-right">$2150.00</td>
           </tr>
         </tbody>
       </table>
+
+      <footer class="text-center">
+        <p>
+          <span class="bold-text">NOTE:</span> This is a computer generated
+          receipt and does not require physical signature.
+        </p>
+        <div>
+          <button class="btn btn-sm btn-secondary">Print</button>
+          <button class="btn btn-sm btn-secondary">Download</button>
+        </div>
+      </footer>
     </div>
 
     <script

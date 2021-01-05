@@ -4,18 +4,23 @@ body {
 
 .invoice {
   background-color: #fff;
+  border: 1px solid #ccc;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   max-width: 850px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding: 70px;
 }
-
+.bold-text {
+  font-weight: bold;
+}
 /* table {
   border: 1px solid #dfdfdf; 
 }*/
-
+.table-row-light {
+  background-color: #f7f7f7;
+}
 .hr {
-  width: 100%;
-  color: #ccc;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
