@@ -14,14 +14,19 @@ body {
 .bold-text {
   font-weight: bold;
 }
-/* .table-invoice :first-child {
-  border: 1px solid #dfdfdf;
-  border-radius: 8px;
-} */
 
 .table-row-light {
   background-color: #f7f7f7;
 }
+.table-invoice {
+  border: 1px solid #dfdfdf;
+  border-radius: 6px;
+}
+
+.table .top-border th {
+  border: none;
+}
+
 .hr {
   margin-bottom: 10px;
   margin-top: 10px;
