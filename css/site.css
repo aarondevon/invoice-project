@@ -2,6 +2,10 @@ body {
   background-color: #e7e9ed;
 }
 
+footer {
+  margin-top: 25px;
+}
+
 .invoice-container {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -15,8 +19,12 @@ body {
   font-weight: bold;
 }
 
+.small-text {
+  font-size: small;
+}
+
 .table-row-light {
-  background-color: #f7f7f7;
+  background-color: #f8f8fa;
 }
 .table-invoice {
   border: 1px solid #dfdfdf;
